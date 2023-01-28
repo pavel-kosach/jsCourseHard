@@ -12,6 +12,6 @@ console.log(result);
 
 // Вывести в консоль первые 2 цифры полученного числа
 let resultArray = Array.from(String(result)).map((i) => Number(i));
-resultArrayNumbersRemoved = resultArray.splice(2);
-console.log(resultArray);
-// resultArray.forEach((element) => console.log(element));
+console.log(resultArray[0], resultArray[1]);
+
+// resultArrayNumbersRemoved = resultArray.splice(2);
